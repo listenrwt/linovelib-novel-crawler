@@ -1,0 +1,5 @@
+requests==2.31.0
+parsel==1.6.0
+time==
+os
+re
