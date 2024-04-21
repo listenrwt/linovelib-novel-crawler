@@ -27,6 +27,7 @@ To use this novel crawler, follow the steps below:
    ```
 
    The crawler will start fetching and saving the novels within the specified range. The progress will be logged in the terminal, displaying the current book number being crawled.
+   ![Screenshot 2024-04-21 155910](https://github.com/listenrwt/linovelib-novel-crawler/assets/123095693/a7df6c46-ef2c-4ab0-80a1-f53edf585460)
 
 ## Logging
 
