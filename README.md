@@ -1,4 +1,4 @@
-# Novel Crawler
+# Linovelib Novel Crawler
 
 This is a novel crawler specifically designed to crawl novels from the website [https://tw.linovelib.com/](https://tw.linovelib.com/). The crawler allows you to specify the range of novels you want to crawl and provides progress logging and error handling functionalities.
 
