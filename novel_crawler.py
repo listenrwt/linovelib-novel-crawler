@@ -1,6 +1,8 @@
 import requests, parsel, time, os, re
 
-no_of_books = 3944
+start_book_no = 1
+end_book_no = 3944
+
 delayTime = 0.5
 maxFailTime = 3
 header = {
@@ -94,7 +96,7 @@ def midProcessing(midURL, series_title):
             break
 
 
-for i in range(1, no_of_books + 1):
+for i in range(start_book_no, end_book_no + 1):
     try:    
         grapBookFromCatalogURL("https://tw.linovelib.com/novel/" + str(i) + "/catalog")
         with open('progressLog.txt', mode='w', encoding='utf-8') as f:
